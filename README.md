@@ -4,7 +4,7 @@ ArCoreProject
 RrCore + Unity + MMD (MikuMikuDance) 实践  
 **********
 
->注意，由于目前这个Android ARCore SDK刚刚推出，Google没有做太多设备的兼容，目前仅支持这些型号：Google Pixel 、 Google Pixel XL 、 Samsung Galaxy S8 (SM-G950U, SM-G950N, SM-G950FD, SM-G950FD, SM-G950W, SM-G950U1
+>注意，由于目前这个 Android ARCore SDK 刚刚推出，Google 没有做太多设备的兼容，目前仅支持这些型号：Google Pixel 、 Google Pixel XL 、 Samsung Galaxy S8 (SM-G950U, SM-G950N, SM-G950FD, SM-G950FD, SM-G950W, SM-G950U1）
 
 1. 基础服务，调试手机(需要是以上支持的型号)安装 [arcore-preview.apk](https://github.com/google-ar/arcore-android-sdk/releases/download/sdk-preview/arcore-preview.apk) 作为一个基础服务，手机安装完后在应用程序里面会有一个 Tango Core 服务。
 
