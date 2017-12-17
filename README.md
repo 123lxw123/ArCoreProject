@@ -4,7 +4,15 @@ ArCoreProject
 RrCore + Unity + MMD (MikuMikuDance) 实践  
 **********
 
->注意，由于目前这个 Android ARCore SDK 刚刚推出，Google 没有做太多设备的兼容，目前仅支持这些型号：Google Pixel 、 Google Pixel XL 、 Samsung Galaxy S8 (SM-G950U, SM-G950N, SM-G950FD, SM-G950FD, SM-G950W, SM-G950U1）
+## 背景描述 ##
+
+今年 Apple、Google 相继发布了自家的增强现实（AR）平台 ARKit、ARCore，大大降低了移动端 AR 开发门槛，AR 移动化也是未来的一个发展方向。恰好公司举办 Hackathon 活动，以 Hackathon 为契机对 ARCore 进行学习实践，并把实践的过程和遇到的问题整理记录下来。
+
+>注意，由于目前这个 Android ARCore SDK 刚刚推出，Google 没有做太多设备的兼容，目前仅支持这些型号：Google Pixel 、 Google Pixel XL 、 Samsung Galaxy S8 (SM-G950U, SM-G950N, SM-G950FD, SM-G950FD, SM-G950W, SM-G950U1），并且 Android SDK 7.0 或更高版本。  
+
+![](https://diycode.b0.upaiyun.com/photo/2017/2574accef8d283da1ce2139673219d20.png)  
+
+## 实践过程 ##
 
 1. 基础服务，调试手机(需要是以上支持的型号)安装 [arcore-preview.apk](https://github.com/google-ar/arcore-android-sdk/releases/download/sdk-preview/arcore-preview.apk) 作为一个基础服务，手机安装完后在应用程序里面会有一个 Tango Core 服务。
 
