@@ -35,14 +35,14 @@ RrCore + Unity + MMD (MikuMikuDance) 实践
     <img src="https://github.com/123lxw123/ArCoreProject/blob/master/source/MMD4Mecanim.png">
 </center>
 
-5. MMD 模型，Unity 导入 MMD 模型 生成 fbx 文件，参考 [手把手教你把 MMD 模型导进 Unity](http://www.bilibili.com/video/av3687730/)，切换模型 Rig 模式为 Lecagy
+4. MMD 模型，Unity 导入 MMD 模型 生成 fbx 文件，参考 [手把手教你把 MMD 模型导进 Unity](http://www.bilibili.com/video/av3687730/)，切换模型 Rig 模式为 Lecagy  
 避坑：Mac 上 Unity2017.3.0b4 版 + MMD4Mecanim_Beta20150508 导入 MMD 模型发现颜色明显不对劲，后来在 Windows 上 Unity5.3.2f1 版 + MMD4Mecanim_Beta20150508 导入完美，再导出成 unitypackage 便可导入 Mac Unity  
 
 <center>
     <img src="https://github.com/123lxw123/ArCoreProject/blob/master/source/mmd.png">
 </center>
 
-4. 声音，把 xxx.fbx 拖到 Scenes 中，右边菜单栏 Add Component > Audio > Audio Source，把声音文件拖到 AudioClip 中，左边菜单栏把 刚放进来的 MMD 模型重命名，再拖回原来的位置，这时会生成一个 xxx.prefab 文件，把生成的 xxx.fbx 文件拖动替换 ExampleController 中的 Andy Android Prefab，build & run  
+5. 声音，把 xxx.fbx 拖到 Scenes 中，右边菜单栏 Add Component > Audio > Audio Source，把声音文件拖到 AudioClip 中，左边菜单栏把 刚放进来的 MMD 模型重命名，再拖回原来的位置，这时会生成一个 xxx.prefab 文件，把生成的 xxx.fbx 文件拖动替换 ExampleController 中的 Andy Android Prefab，build & run  
 
 <center> 
     <img src="https://github.com/123lxw123/ArCoreProject/blob/master/source/mmd-audio.png">
@@ -52,7 +52,7 @@ RrCore + Unity + MMD (MikuMikuDance) 实践
     <img src="https://github.com/123lxw123/ArCoreProject/blob/master/source/mmd-replace.png">
 </center>
 
-5. 阴影，首先添加光源，在 Scenes 左边菜单栏选中 Evironmental Light，Add Component > Rendering > Light，Type Diretional，Shadow Type Soft Shadows，Strength 调低一点，Resolution 选则 Very Hight Resolution，调整光源的位置。添加 [ARCoreUtils](https://github.com/jonas-johansson/ARCoreUtils)，把 Neustone 文件夹 放到项目 Assets 目录下，把 Neustone > ARCoreUtils 下 ARSurfaceManager.prefab 拖到 Scenes 中，build & run  
+6. 阴影，首先添加光源，在 Scenes 左边菜单栏选中 Evironmental Light，Add Component > Rendering > Light，Type Diretional，Shadow Type Soft Shadows，Strength 调低一点，Resolution 选则 Very Hight Resolution，调整光源的位置。添加 [ARCoreUtils](https://github.com/jonas-johansson/ARCoreUtils)，把 Neustone 文件夹 放到项目 Assets 目录下，把 Neustone > ARCoreUtils 下 ARSurfaceManager.prefab 拖到 Scenes 中，build & run  
 避坑：如果还是没出现阴影，注意调节光源的亮度和方向，可以尝试修改项目 MMD 文件夹中的 Materials 文件夹下素材的 Shader， 选中素材右边菜单栏 Shader 选择 ARCore > DiffusWithLightEstimateion，有些素材修改后模型可能显示异常，把不会异常的素材都修改成 DiffusWithLightEstimateion，build & run  
 
 <center>
@@ -63,7 +63,7 @@ RrCore + Unity + MMD (MikuMikuDance) 实践
     <img src="https://github.com/123lxw123/ArCoreProject/blob/master/source/materials-shader.png">
 </center>
 
-6. 动态模糊，为了使模型在镜头移动过程中更接近现实效果，需要添加动态模糊的效果，参考 [PostProcessing Quickstart](https://github.com/Unity-Technologies/PostProcessing/wiki/(v2)-Quickstart)  
+7. 动态模糊，为了使模型在镜头移动过程中更接近现实效果，需要添加动态模糊的效果，参考 [PostProcessing Quickstart](https://github.com/Unity-Technologies/PostProcessing/wiki/(v2)-Quickstart)  
 
 ## 成果展示 ##
 
