@@ -1,7 +1,7 @@
 ArCoreProject
 ==========
 
-RrCore + Unity + MMD (MikuMikuDance) 实践  
+ARCore + Unity + MMD (MikuMikuDance) 实践  
 **********
 
 ## 背景描述 ##
