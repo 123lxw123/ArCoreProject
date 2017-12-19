@@ -18,7 +18,7 @@ RrCore + Unity + MMD (MikuMikuDance) 实践
 
 1. 基础服务，调试手机(需要是以上支持的型号)安装 [arcore-preview.apk](https://github.com/google-ar/arcore-android-sdk/releases/download/sdk-preview/arcore-preview.apk) 作为一个基础服务，手机安装完后在应用程序里面会有一个 Tango Core 服务。开启开发者选项，并打开 USB 调试模式。
 
-2. 搭建开发环境，下载安装 [Android Studio、Android SDK](https://developer.android.com/studio/index.html)、[Unity 最新 Beta 版](https://unity3d.com/cn/unity/beta?_ga=2.92421332.833162943.1512107097-1081327587.1507388747) (本环境 2017.3.0b4 版)。Unity 导入 ARCore SDK 项目(```git clone https://github.com/google-ar/arcore-unity-sdk.git```)，修改相关设置，参考 [Getting Started with Unity](https://developers.google.com/ar/develop/unity/getting-started)  
+2. 搭建开发环境，下载安装 [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)、[Android SDK(可通过 Android Studio 或者单独的 SDK Manager 安装)](https://developer.android.com/studio/index.html)、[Unity 最新 Beta 版](https://unity3d.com/cn/unity/beta?_ga=2.92421332.833162943.1512107097-1081327587.1507388747) (本环境 2017.3.0b4 版)。Unity 导入 ARCore SDK 项目(```git clone https://github.com/google-ar/arcore-unity-sdk.git```)，修改相关设置，参考 [Getting Started with Unity](https://developers.google.com/ar/develop/unity/getting-started)  
 避坑：注意 Unity 是最新 Beta 版，而不是正式版  
 <center>
     <img src="https://github.com/123lxw123/ArCoreProject/blob/master/source/init-arcore-project.png">
