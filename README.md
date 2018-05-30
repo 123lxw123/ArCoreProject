@@ -4,6 +4,15 @@ ArCoreProject
 ARCore + Unity + MMD (MikuMikuDance) 实践  
 **********
 
+## 成果展示 ##
+<center
+    <img src="https://github.com/123lxw123/ArCoreProject/blob/master/source/part1.gif>
+</center>  
+<center
+    <img src="https://github.com/123lxw123/ArCoreProject/blob/master/source/part2.gif>
+</center>  
+
+
 ## 背景描述 ##
 
 今年 Apple、Google 相继发布了自家的增强现实（AR）平台 ARKit、ARCore，大大降低了移动端 AR 开发门槛，AR 移动化也是未来的一个发展方向。恰好公司举办 Hackathon 活动，以 Hackathon 为契机对 ARCore 进行学习实践，并把实践的过程和遇到的问题整理记录下来。
@@ -64,15 +73,4 @@ ARCore + Unity + MMD (MikuMikuDance) 实践
 </center>
 
 - 动态模糊，为了使模型在镜头移动过程中更接近现实效果，需要添加动态模糊的效果，参考 [PostProcessing Quickstart](https://github.com/Unity-Technologies/PostProcessing/wiki/(v2)-Quickstart)  
-
-## 成果展示 ##
-
-<center>
-    <img src="https://github.com/123lxw123/ArCoreProject/blob/master/source/part1.gif">
-</center>  
-
-<center>
-    <img src="https://github.com/123lxw123/ArCoreProject/blob/master/source/part2.gif">
-</center>
-
  
